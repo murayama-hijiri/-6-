@@ -319,10 +319,12 @@
     border-top: 1px dotted #c4c4c4;
 }
 .event_summary_item.event_schedule {
+    align-items: center;
     border: none;
     padding-bottom: 35px;
 }
 .event_summary_item.venue {
+    align-items: center;
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -331,6 +333,7 @@
     padding-bottom: 25px;
 }
 .event_summary_item.target {
+    align-items: center;
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -461,6 +464,9 @@
     background-color: #ffffff;
 }
 .content_box_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 57px;
     background: #fdd35c;
@@ -891,13 +897,13 @@ a {
     padding-top: 16px;
 }
 .time_Schedule_box_small_text_area p {
+    color: #444545;
     max-width: 240px;
     width: 100%;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.08em;
-
     text-align: start;
 }
 .time_Schedule_box_small_picture_area {
@@ -963,6 +969,7 @@ a {
     top: 70px;
 }
 .time_Schedule_box_small_3_text {
+    color: #444545;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -977,9 +984,11 @@ a {
     text-align: start;
 }
 .fade_content {
+    padding-left: 5px;
     width: 100%;
 }
 .fade_content.hide {
+    width: 100%;
     height: 325px;
     position: relative;
     overflow-y: hidden;
