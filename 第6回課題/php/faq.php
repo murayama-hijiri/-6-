@@ -1,10 +1,5 @@
 <div class="section">
     <div class="back faq_back">
-        <img
-            class="polygon_7"
-            src="../img/object/Polygon 5 (4).png"
-            alt=""
-        />
         <div class="section_content">
             <div class="content_flex faq_content">
                 <div class="content_title">

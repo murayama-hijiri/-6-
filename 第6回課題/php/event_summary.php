@@ -1,20 +1,5 @@
 <div class="section">
     <div class="back event">
-        <img
-            class="polygon_event_1 polygon_960"
-            src="../img/object/Polygon 5.png"
-            alt=""
-        />
-        <img
-            class="polygon_event_2 polygon_960"
-            src="../img/object/Polygon 1 (2).png"
-            alt=""
-        />
-        <img
-            class="polygon_event_3 polygon_960"
-            src="../img/object/Polygon 4 (2).png"
-            alt=""
-        />
         <div class="section_content">
             <div class="content_flex event">
                 <div class="content_title">

@@ -17,6 +17,7 @@
 .side_button {
     position: fixed;
     top: 50%;
+    transform: translateY(-50%);
     right: 0;
     width: 65px;
     height: 303px;
@@ -132,17 +133,17 @@
     top: 3px;
     left: 343px;
 }
-.line_button_bottom {
+.line_button_bottom_area {
+    display: none;
+    background: #f1f1f480;
     z-index: 10;
     position: fixed;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
-    display: none;
+    padding: 16px 0px;
+}
+.line_button_bottom {
+    margin: 0 auto;
     width: 343px;
     height: 49px;
     border: 1.63px solid #ffffff;
@@ -176,84 +177,9 @@
 
 /* セクション1 */
 .back.top_content {
-    background-image: url("../img/object/Group\ 154.png");
+    background-image: url("../img/Group 183 (1).png");
     position: relative;
     z-index: -2;
-}
-.polygon_top_1 {
-    position: absolute;
-    top: 574px;
-    left: 0px;
-    z-index: -1;
-}
-.polygon_top_2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-}
-.polygon_top_3 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-}
-.polygon_top_4 {
-    position: absolute;
-    top: 406px;
-    left: 125px;
-    z-index: -1;
-}
-.polygon_top_5 {
-    position: absolute;
-    top: 204px;
-    right: 166px;
-    z-index: -1;
-}
-.polygon_top_6 {
-    position: absolute;
-    top: 550px;
-    right: 27px;
-    z-index: -1;
-}
-.polygon_top_7 {
-    position: absolute;
-    top: 160px;
-    left: 38px;
-    z-index: -1;
-}
-.polygon_small_top_1 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-}
-.polygon_small_top_2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-}
-.polygon_small_top_3 {
-    position: absolute;
-    top: 227px;
-    right: 0px;
-    z-index: -1;
-}
-.polygon_small_top_4 {
-    position: absolute;
-    bottom: 80px;
-    right: 0;
-}
-.polygon_small_top_5 {
-    position: absolute;
-    bottom: 107px;
-    left: 25px;
-}
-.polygon_small_top_6 {
-    position: absolute;
-    bottom: 12px;
-    left: 0;
 }
 .logo {
     width: 186.78px;
@@ -325,37 +251,12 @@
 }
 /* Freelance Summit */
 .back.summit {
-    position: relative;
-}
-.polygon_summit_1 {
-    position: absolute;
-    top: 24px;
-    right: 0px;
-    z-index: -1;
-}
-.polygon_summit_2 {
-    position: absolute;
-    top: 330px;
-    left: 0px;
-    z-index: -1;
-}
-.polygon_summit_3 {
-    position: absolute;
-    top: 278px;
-    left: 100px;
-    z-index: -2;
-}
-.polygon_small_summit_1 {
-    position: absolute;
-    bottom: 66px;
-    left: 0px;
-    z-index: -1;
-}
-.polygon_small_summit_2 {
-    position: absolute;
-    top: -3px;
-    right: 0px;
-    z-index: -1;
+    background-image: url("../img/object/Polygon 6.png"),
+        url("../img/object/Polygon 4.png"), url("../img/object/Polygon 1.png");
+    background-position: right 0px top 65px, left 0px bottom -56px,
+        left 97px top 317px;
+    background-size: 172px, 212px, 122px;
+    background-repeat: no-repeat;
 }
 .summit_text {
     padding-bottom: 40px;
@@ -379,7 +280,14 @@
 }
 /* Event Summary */
 .back.event {
-    position: relative;
+    background-image: url("../img/object/Polygon 5.png"),
+        url("../img/object/Polygon 1 (2).png"),
+        url("../img/object/Polygon 4 (2).png"),
+        url("../img/object/Polygon 4.png");
+    background-position: left 115px bottom 390px, left 6px bottom 177px,
+        right 0px top 236px, left 0px top -213px;
+    background-size: 66px, 176px, 210px, 212px;
+    background-repeat: no-repeat;
 }
 .polygon_event_1 {
     position: absolute;
@@ -689,8 +597,10 @@ a {
     display: flex;
 }
 /* About Exhibitors */
-.back.about {
-    position: relative;
+.about.back {
+    background-image: url("../img/object/Group 192.svg");
+    background-position: left top 22px;
+    background-size: 1440px auto;
 }
 .polygon_7 {
     position: absolute;
@@ -780,7 +690,7 @@ a {
     align-items: center;
     width: 88px;
     height: 28px;
-    background-image: url("../img/Vector\ 20.png");
+    background-image: url("../img/Group 219.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -953,8 +863,8 @@ a {
     justify-content: center;
     align-items: center;
     width: 87px;
-    height: 25px;
-    background-image: url("../img/Vector\ 20.png");
+    height: 28px;
+    background-image: url("../img/Group 219.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -965,7 +875,7 @@ a {
     color: #444545;
     position: absolute;
     top: 3px;
-    left: -3px;
+    left: -4px;
 }
 .time_Schedule_box_small_flex {
     width: 100%;
@@ -1110,13 +1020,11 @@ a {
     letter-spacing: 0;
 }
 /* FAQ */
-.back.faq_back {
-    position: relative;
-}
-.polygon_7 {
-    position: absolute;
-    top: 367px;
-    left: 0px;
+.faq_back {
+    background-image: url("../img/object/Polygon 5 (4).png");
+    background-position: left 0 top 343px;
+    background-size: 102px;
+    background-repeat: no-repeat;
 }
 .faq_flex {
     width: 100%;
@@ -1242,12 +1150,6 @@ footer {
     }
     .content_flex.event {
         padding: 0px 8px;
-    }
-    .polygon_960 {
-        display: none;
-    }
-    .polygon_650 {
-        display: block;
     }
     /* freelance summit */
     .summit_main_text {
@@ -1466,6 +1368,15 @@ footer {
         height: 20px;
     }
     /* freelance summit */
+    .back.summit {
+        background-image: url("../img/object/Polygon 6.png"),
+            url("../img/object/Polygon 4.png"),
+            url("../img/object/Polygon 1.png");
+        background-position: right 0px top 65px, left 0px bottom 0px,
+            left 97px top 200px;
+        background-size: 86px, 106px, 61px;
+    }
+
     .summit_text {
         display: none;
     }
@@ -1507,6 +1418,27 @@ footer {
         width: 100%;
         height: 200px;
     }
+    /* event_summary */
+    .back.event {
+        background-size: 33px, 88px, 105px, 106px;
+    }
+
+    .event_summary_item.access {
+        max-width: 400px;
+    }
+    /* about */
+    .about.back {
+        background-image: url("../img/Polygon\ 1.png"),
+            url("../img/Polygon\ 6.png");
+        background-position: left 0 bottom 33px, right 0 top 23px;
+        background-size: 65px, 65px;
+        background-repeat: no-repeat;
+    }
+
+    .company_list_flex {
+        flex-direction: column;
+        width: auto;
+    }
     /* time schedule */
     .time_Schedule_list.time_Schedule_650 {
         display: none;
@@ -1520,16 +1452,17 @@ footer {
     .more {
         display: block;
     }
+    /* faq */
+    .faq_back {
+        background-image: none;
+    }
 }
 /* スマホサイズ */
 @media screen and (max-width: 450px) {
-    .line_button_bottom {
+    .line_button_bottom_area {
         display: block;
     }
     /* セクション1 */
-    .back.top_content {
-        background-image: url("../img/object/object_small/fv_bg.png");
-    }
     .side_button {
         display: none;
     }
@@ -1584,6 +1517,13 @@ footer {
         display: none;
     }
     /* freelance summit */
+    .back.summit {
+        background-image: url("../img/Polygon\ 6.png"),
+            url("../img/Polygon\ 1.png");
+        background-position: right 0px top 8px, left -32px bottom 80px;
+        background-size: 58px, 78px;
+    }
+
     .top_title_text {
         font-size: 26px;
         height: 13px;
@@ -1597,6 +1537,10 @@ footer {
         line-height: 37px;
     }
     /* event summary */
+    .back.event {
+        background-image: none;
+    }
+
     .content_flex.event {
         max-width: 345px;
         padding-top: 8px;
@@ -1732,29 +1676,20 @@ footer {
         padding-top: 20px;
     }
     /* about */
-    .company_list_flex {
-        flex-direction: column;
-        width: auto;
+    .about.back {
+        background-image: url("../img/Polygon\ 1.png"),
+            url("../img/Polygon\ 6.png");
+        background-position: left 0 bottom 33px, right 0 top 23px;
+        background-size: 65px, 65px;
+        background-repeat: no-repeat;
     }
 
-    .polygon_7 {
-        display: none;
-    }
-    .polygon_8 {
-        display: none;
-    }
-    .polygon_9 {
-        display: none;
-    }
     /* faq */
     .content_flex.faq_content {
         max-width: 308px;
     }
     .faq_flex {
         gap: 14px;
-    }
-    .polygon_7 {
-        display: none;
     }
     .faq_box {
         width: 26px;
@@ -1771,3 +1706,15 @@ footer {
         display: none;
     }
 }
+@media screen and (max-width: 390px) {
+    .back.top_content {
+        background-image: url("../img/Group 184.png");
+        background-size: 390px 543px;
+    }
+}
+
+/* *,
+*:before,
+*:after {
+    outline: 2px solid red !important;
+} */

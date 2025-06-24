@@ -1,30 +1,5 @@
 <div class="section">
     <div class="back summit">
-        <img
-            class="polygon_summit_1 polygon_960"
-            src="../img/object/Polygon 6.png"
-            alt=""
-        />
-        <img
-            class="polygon_summit_2 polygon_960"
-            src="../img/object/Polygon 4.png"
-            alt=""
-        />
-        <img
-            class="polygon_summit_3 polygon_960"
-            src="../img/object/Polygon 1.png"
-            alt=""
-        />
-        <img
-            class="polygon_small_summit_1 polygon_650"
-            src="../img/object/object_small/Polygon2 1.png"
-            alt=""
-        />
-        <img
-            class="polygon_small_summit_2 polygon_650"
-            src="../img/object/object_small/Polygon2 6.png"
-            alt=""
-        />
         <div class="section_content">
             <div class="content_flex summit">
                 <div class="content_title">
