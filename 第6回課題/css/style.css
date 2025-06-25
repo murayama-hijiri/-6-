@@ -605,7 +605,7 @@ a {
 /* About Exhibitors */
 .about.back {
     background-image: url("../img/object/Group 192.svg");
-    background-position: left top 22px;
+    background-position: center top 20px;
     background-size: 1440px auto;
 }
 .polygon_7 {
@@ -1030,9 +1030,11 @@ a {
 }
 /* FAQ */
 .faq_back {
-    background-image: url("../img/object/Polygon 5 (4).png");
-    background-position: left 0 top 343px;
-    background-size: 102px;
+    background-image: url("../img/object/Polygon 5 (4).png"),
+        url("../img/Polygon 6 (3).png"), url("../img/Polygon 5 (6).png");
+    background-position: left 0 top 343px, right 94px top 28px,
+        right 16px top 211px;
+    background-size: 102px, 206px, 68px;
     background-repeat: no-repeat;
 }
 .faq_flex {
@@ -1088,6 +1090,10 @@ a {
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 0;
+}
+.answer a {
+    display: inline;
+    width: fit-content;
 }
 /* フッター */
 footer {
