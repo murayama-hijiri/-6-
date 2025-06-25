@@ -606,7 +606,7 @@ a {
 .about.back {
     background-image: url("../img/object/Group 192.svg");
     background-position: center top 20px;
-    background-size: 1440px auto;
+    background-size: 100vw auto;
 }
 .polygon_7 {
     position: absolute;
